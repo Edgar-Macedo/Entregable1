@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
+  justify-content:center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: 'Manrope';
+}
+
+.phraseContainer {
+  
+  padding: 7px;
+  font-weight: bold;
+  justify-content: right;
+  box-shadow: 5px 3px 10px 3px black;
+  margin: 18%;
+  font-family: 'Manrope';
+  font-size: 1.5em;
+  font-weight: lighter;
+  background-color:white;
+
+}
+
+.phraseContainer div {
+  display: flex;
+}
+
+#author{
+  text-align: right;
+  margin-right: 5px;
+  font-style: italic;
+
+}
+
+.phraseContainer div p{
+  flex-grow: 1;
+  text-align:  center;
+  padding: 0;
+  margin: 0;
+}
+
+.phraseContainer div h2{
+  font-size: 80px;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.nextRandQuote {
+  border-radius: 50%;  
+  width: 50px;
+  height: 50px;
+  font-size: .8em;
+  margin-left:90% ;
+  margin-bottom: 15px;
+  border:0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
