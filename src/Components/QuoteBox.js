@@ -1,5 +1,5 @@
 
-import React, { Children, useState } from 'react';
+import React, { useState } from 'react';
 import Card from "./Card"
 import phrases from "../phrases.json"
 import Text from './Text';
@@ -41,7 +41,6 @@ const QuoteBox = () => {
         changeColor();
         changeQuote();
     }
-
 
     return (
         <Card>
